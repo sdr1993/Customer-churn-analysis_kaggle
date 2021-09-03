@@ -26,6 +26,34 @@ This is a kaggle project of telecom customer data
 * Whether people use internet service is the most important factor to create high LTV, and yearly contract is second place.
 * Among all the subsets of internet services, online backup is the most important factor to create high LTV
 
-# Model Performances:
+## Model Performances:
 
-*
+* Random Forest Classifier:
+    * Accuracy_score : 0.78591
+    
+    * ROC_AUC_score : 0.67832
+    
+* Decission Tree Classifier:
+    * Accuracy_score : 0.78875
+    
+    * ROC_AUC_score : 0.69761
+    
+* SVM Classifier: 
+    * Accuracy_score : 0.79557
+    
+    * ROC_AUC_score : 0.70710
+
+* XGBoost Classifier:
+    * Accuracy_score : 0.79045
+    
+    * ROC_AUC_score : 0.69321
+
+* ANN:
+    * Accuracy_score : 0.78875
+    
+    * ROC_AUC_score : 0.71220
+
+
+## Future Scope:
+
+The accuracy of the models can be further improved if we address the 'imbalanced dataset' issue. On inspection, we find the number of records of majority class is more than twice the number of records in the minority class. This can be fixed with Under-Sampling or Over-Sampling techniques.
