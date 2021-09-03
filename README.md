@@ -25,3 +25,7 @@ This is a kaggle project of telecom customer data
 * 89% of those who leaked used monthly contract, while only 42% of current customers are using monthly contract.
 * Whether people use internet service is the most important factor to create high LTV, and yearly contract is second place.
 * Among all the subsets of internet services, online backup is the most important factor to create high LTV
+
+# Model Performances:
+
+*
