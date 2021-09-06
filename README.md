@@ -58,4 +58,4 @@ This is a kaggle project of telecom customer data
 
 The accuracy of the models can be further improved if we address the 'imbalanced dataset' issue. On inspection, we find the number of records of majority class is more than twice the number of records in the minority class. This can be fixed with Under-Sampling or Over-Sampling techniques.
 
-Identifying different clusters of customers and building models per cluster to better predict the churn.
+Identify different clusters of customers and building models per cluster to better predict the churn.
